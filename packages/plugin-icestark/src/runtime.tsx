@@ -97,10 +97,10 @@ const module = ({ appConfig, addDOMRender, buildConfig, setRenderRouter, modifyR
       useEffect(() => {
         (async () => {
           // 异步 apps 获取
-          const appList = await getApps();
+          const appList = await getApps(appPathname);
           setApps(appList);
         })();
-      }, []);
+      }, [appPathname]);
 
       function handleRouteChange(pathname, query, hash, routeType) {
         setRouteInfo({ pathname, query, hash, routeType });

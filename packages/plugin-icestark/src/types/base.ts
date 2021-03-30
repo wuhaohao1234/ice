@@ -12,5 +12,5 @@ export interface IAppRouter {
 }
 
 export interface IGetApps {
-  (): CompatibleAppConfig[] | Promise<CompatibleAppConfig[]>;
+  (path?: string): CompatibleAppConfig[] | Promise<CompatibleAppConfig[]>;
 }
