@@ -59,13 +59,13 @@ class AddScriptAttrsWebpackPlugin {
   }
 }
 
-module.exports = (webpackConfig, customScriptAttrs = {}) => {
-  if (Object.keys(customScriptAttrs).length > 0) {
+module.exports = (webpackConfig, scriptAttrs = {}) => {
+  if (Object.keys(scriptAttrs).length > 0) {
     webpackConfig
       .plugin('AddScriptAttrsWebpackPlugin')
       .use(AddScriptAttrsWebpackPlugin, [
         {
-          ...customScriptAttrs
+          ...scriptAttrs
         }
       ]);
   }

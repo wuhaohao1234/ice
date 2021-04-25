@@ -106,8 +106,7 @@ module.exports = [
     validation: (val) => {
       return validation('browserslist', val, 'string|object');
     },
-    defaultValue:
-      'last 2 versions, Firefox ESR, > 1%, ie >= 9, iOS >= 8, Android >= 4'
+    defaultValue: 'last 2 versions, Firefox ESR, > 1%, ie >= 9, iOS >= 8, Android >= 4'
   },
   {
     name: 'vendor',
@@ -230,10 +229,6 @@ module.exports = [
   },
   {
     name: 'esbuild',
-    validation: 'object'
-  },
-  {
-    name: 'customScriptAttrs',
     validation: 'object'
   }
 ];

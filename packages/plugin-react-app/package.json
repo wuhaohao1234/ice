@@ -27,6 +27,7 @@
     "path-exists": "^4.0.0",
     "postcss-plugin-rpx2vw": "^0.0.2",
     "react-dev-utils": "^10.2.1",
+    "safe-require": "^1.0.4",
     "webpack-plugin-import": "^0.2.6"
   },
   "devDependencies": {

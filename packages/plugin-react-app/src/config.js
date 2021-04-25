@@ -39,6 +39,12 @@ module.exports = function(userConfig) {
     {
       name: 'polyfill',
       defaultValue: polyfillDefaultValue
+    },
+    {
+      name: 'scriptAttrs',
+      defaultValue: {},
+      configWebpack: require('./userConfig/scriptAttrs'),
+      validation: 'object'
     }
   ];
 };
