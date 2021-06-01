@@ -29,3 +29,9 @@ Iceworks 是一款可视化智能研发助手，帮助开发者快速使用可�
 - 点击 VS Code 活动栏上的「Iceworks 图标」
 - 鼠标移动到 「NPM 脚本」下的「start 项」
 - 点击 start 项右边的「启动图标」
+
+## 版本变更
+
+目前ice works已经变更为appworks
+
+github地址为https://github.com/appworks-lab/pack
